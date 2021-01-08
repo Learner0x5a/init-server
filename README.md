@@ -1,2 +1,4 @@
 # init-server
-server config: zsh, vim, etc.
+software sources
+zsh
+vim
