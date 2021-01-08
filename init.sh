@@ -1,6 +1,6 @@
 # software sources
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
-sudo echo sources/ubuntu-20.04.1 > /etc/apt/sources.list
+sudo cat sources/ubuntu-20.04.1 > /etc/apt/sources.list
 sudo apt update
 sudo apt install vim git zsh -y
 
