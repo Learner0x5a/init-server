@@ -12,4 +12,4 @@
 
 ## vim
 
-采用[!vim-for-server](https://github.com/wklken/vim-for-server)，略有改动。
+采用[vim-for-server](https://github.com/wklken/vim-for-server)，略有改动。
