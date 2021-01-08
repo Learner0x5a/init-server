@@ -1,3 +1,5 @@
+echo "Please input password for permission:\n"
+
 # software sources
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 sudo cat sources/ubuntu-20.04.1 > /etc/apt/sources.list
