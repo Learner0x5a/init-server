@@ -9,7 +9,8 @@ sh zsh/zsh_install.sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 cp zsh/zshrc ~/.zshrc
+sed -i "s/plugins=(git)/plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)/g" ~/.zshrc
 source ~/.zshrc
 
 # vim
-cp vim/vimrc ~/.vimtc
+cp vim/vimrc ~/.vimrc
