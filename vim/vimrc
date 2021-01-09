@@ -114,7 +114,7 @@ endif
 
 " NOT SUPPORT?
 " Enable basic mouse behavior such as resizing buffers.
-set mouse=a
+set mouse=n
 
 
 " ============================ theme and status line ============================
