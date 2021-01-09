@@ -1,7 +1,9 @@
 # init-server
 
 一键初始化服务器环境: 软件源 & zsh & vim
+
 先执行part1: 软件源+ohmyzsh
+
 换了shell之后再执行part2: zsh & vim config
 
 ## 软件源
