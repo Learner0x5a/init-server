@@ -6,6 +6,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 sed -i "s/plugins=(git)/plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)/g" ~/.zshrc
 source ~/.zshrc
 
+# tmux
+cp tmux/.tmux.conf ~/.tmux.conf
+
 # vim
 cp vim/vimrc ~/.vimrc
 

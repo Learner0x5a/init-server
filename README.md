@@ -14,6 +14,10 @@
 
 配置oh-my-zsh + zsh-autosuggestions + zsh-syntax-highlighting
 
+## tmux
+
+无需插件和字体的配置
+
 ## vim
 
 采用[vim-for-server](https://github.com/wklken/vim-for-server)，略有改动。
